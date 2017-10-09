@@ -1,0 +1,15 @@
+module seven_seg_decoder (output A, B, C, D, E, F, G, input Z, Y, X, W);
+	wire yellow, orange, blue;
+
+	assign yellow = ~Z & Y & ~X & ~W;
+	assign orange = Z & Y & ~X & ~W;
+	assign blue = ~Z & ~Y & ~X & W;
+
+	assign A = yellow | blue | (Z & Y & ~X & W) | (Z & ~Y & X & W);
+	assign B = orange | (~Z & Y & ~X & W) | (Z & X & W) | (Y & X & ~W);
+	assign C = orange | (~Z & ~Y & X & ~W) | (Z & Y & X);
+	assign D = yellow | blue | (Y & X & W) | (Z & ~Y & X & ~W);
+	assign E = yellow | (~Z & W) | (~Y & ~X & W);
+	assign F = blue | (Z & Y & ~X & W) | (~Z & X & W) | (~Z & ~Y & X);
+	assign G = orange | (~Z & ~Y & ~X) | (~Z & Y & X & W);
+endmodule

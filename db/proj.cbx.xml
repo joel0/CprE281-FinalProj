@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="proj">
+		<CBX_INST_ENTRY INSTANCE_NAME="|proj|BUSMUX:inst18|lpm_mux:$00000" CBX_FILE_NAME="mux_omc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|proj|BUSMUX:inst23|lpm_mux:$00000" CBX_FILE_NAME="mux_omc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|proj|MUX:stupidQ6|lpm_mux:$00001" CBX_FILE_NAME="mux_lmc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|proj|BUSMUX:inst19|lpm_mux:$00000" CBX_FILE_NAME="mux_qmc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|proj|BUSMUX:inst24|lpm_mux:$00000" CBX_FILE_NAME="mux_qmc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|proj|BUSMUX:inst6|lpm_mux:$00000" CBX_FILE_NAME="mux_omc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|proj|MUX:stupidQ7|lpm_mux:$00001" CBX_FILE_NAME="mux_lmc.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

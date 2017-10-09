@@ -1,0 +1,784 @@
+Analysis & Synthesis report for proj
+Tue Dec  8 14:19:59 2015
+Quartus II 64-Bit Version 12.1 Build 243 01/31/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Registers Removed During Synthesis
+  9. Removed Registers Triggering Further Register Optimizations
+ 10. General Register Statistics
+ 11. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 12. Parameter Settings for User Entity Instance: MUX:stupidQ7
+ 13. Parameter Settings for User Entity Instance: MUX:stupidQ6
+ 14. Parameter Settings for User Entity Instance: BUSMUX:inst6
+ 15. Parameter Settings for User Entity Instance: BUSMUX:inst23
+ 16. Parameter Settings for User Entity Instance: BUSMUX:inst18
+ 17. Parameter Settings for User Entity Instance: BUSMUX:inst24
+ 18. Parameter Settings for User Entity Instance: BUSMUX:inst19
+ 19. Elapsed Time Per Partition
+ 20. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                        ;
++------------------------------------+------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Tue Dec  8 14:19:59 2015          ;
+; Quartus II 64-Bit Version          ; 12.1 Build 243 01/31/2013 SP 1 SJ Full Version ;
+; Revision Name                      ; proj                                           ;
+; Top-level Entity Name              ; proj                                           ;
+; Family                             ; Cyclone II                                     ;
+; Total logic elements               ; 271                                            ;
+;     Total combinational functions  ; 267                                            ;
+;     Dedicated logic registers      ; 125                                            ;
+; Total registers                    ; 125                                            ;
+; Total pins                         ; 72                                             ;
+; Total virtual pins                 ; 0                                              ;
+; Total memory bits                  ; 0                                              ;
+; Embedded Multiplier 9-bit elements ; 0                                              ;
+; Total PLLs                         ; 0                                              ;
++------------------------------------+------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP2C35F672C6       ;                    ;
+; Top-level entity name                                                      ; proj               ; proj               ;
+; Family name                                                                ; Cyclone II         ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; Off                ; Off                ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     1 processor            ; 100.0%      ;
+;     2-8 processors         ;   0.0%      ;
++----------------------------+-------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                        ;
++-----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path  ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                             ; Library ;
++-----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------+---------+
+; bcd_converter.v                   ; yes             ; User Verilog HDL File              ; /home/jmay/CPRE281/fProj/proj/bcd_converter.v                            ;         ;
+; seven_seg_decoder.v               ; yes             ; User Verilog HDL File              ; /home/jmay/CPRE281/fProj/proj/seven_seg_decoder.v                        ;         ;
+; 6bitUpDownCounter.bdf             ; yes             ; User Block Diagram/Schematic File  ; /home/jmay/CPRE281/fProj/proj/6bitUpDownCounter.bdf                      ;         ;
+; proj.bdf                          ; yes             ; User Block Diagram/Schematic File  ; /home/jmay/CPRE281/fProj/proj/proj.bdf                                   ;         ;
+; clkHalf.bdf                       ; yes             ; User Block Diagram/Schematic File  ; /home/jmay/CPRE281/fProj/proj/clkHalf.bdf                                ;         ;
+; output_files/clkDivider.bdf       ; yes             ; User Block Diagram/Schematic File  ; /home/jmay/CPRE281/fProj/proj/output_files/clkDivider.bdf                ;         ;
+; output_files/counterHr.bdf        ; yes             ; User Block Diagram/Schematic File  ; /home/jmay/CPRE281/fProj/proj/output_files/counterHr.bdf                 ;         ;
+; 4bitUpDownCounter.bdf             ; yes             ; User Block Diagram/Schematic File  ; /home/jmay/CPRE281/fProj/proj/4bitUpDownCounter.bdf                      ;         ;
+; mainClock.bdf                     ; yes             ; User Block Diagram/Schematic File  ; /home/jmay/CPRE281/fProj/proj/mainClock.bdf                              ;         ;
+; output_files/counterMn.bdf        ; yes             ; User Block Diagram/Schematic File  ; /home/jmay/CPRE281/fProj/proj/output_files/counterMn.bdf                 ;         ;
+; add3.v                            ; yes             ; User Verilog HDL File              ; /home/jmay/CPRE281/fProj/proj/add3.v                                     ;         ;
+; 8bit_bcd_converter.bdf            ; yes             ; User Block Diagram/Schematic File  ; /home/jmay/CPRE281/fProj/proj/8bit_bcd_converter.bdf                     ;         ;
+; mainFSM.bdf                       ; yes             ; User Block Diagram/Schematic File  ; /home/jmay/CPRE281/fProj/proj/mainFSM.bdf                                ;         ;
+; output_files/buttonProcessing.bdf ; yes             ; User Block Diagram/Schematic File  ; /home/jmay/CPRE281/fProj/proj/output_files/buttonProcessing.bdf          ;         ;
+; output_files/timeDecoder.bdf      ; yes             ; User Block Diagram/Schematic File  ; /home/jmay/CPRE281/fProj/proj/output_files/timeDecoder.bdf               ;         ;
+; output_files/modeDecoder.bdf      ; yes             ; User Block Diagram/Schematic File  ; /home/jmay/CPRE281/fProj/proj/output_files/modeDecoder.bdf               ;         ;
+; output_files/upDownTime.bdf       ; yes             ; User Block Diagram/Schematic File  ; /home/jmay/CPRE281/fProj/proj/output_files/upDownTime.bdf                ;         ;
+; output_files/timeCompare.bdf      ; yes             ; User Block Diagram/Schematic File  ; /home/jmay/CPRE281/fProj/proj/output_files/timeCompare.bdf               ;         ;
+; output_files/alarmFSM.bdf         ; yes             ; User Block Diagram/Schematic File  ; /home/jmay/CPRE281/fProj/proj/output_files/alarmFSM.bdf                  ;         ;
+; mux.tdf                           ; yes             ; Megafunction                       ; /usr/local/altera/12.1sp1/quartus/libraries/megafunctions/mux.tdf        ;         ;
+; lpm_mux.inc                       ; yes             ; Megafunction                       ; /usr/local/altera/12.1sp1/quartus/libraries/megafunctions/lpm_mux.inc    ;         ;
+; lpm_mux.tdf                       ; yes             ; Megafunction                       ; /usr/local/altera/12.1sp1/quartus/libraries/megafunctions/lpm_mux.tdf    ;         ;
+; aglobal121.inc                    ; yes             ; Megafunction                       ; /usr/local/altera/12.1sp1/quartus/libraries/megafunctions/aglobal121.inc ;         ;
+; muxlut.inc                        ; yes             ; Megafunction                       ; /usr/local/altera/12.1sp1/quartus/libraries/megafunctions/muxlut.inc     ;         ;
+; bypassff.inc                      ; yes             ; Megafunction                       ; /usr/local/altera/12.1sp1/quartus/libraries/megafunctions/bypassff.inc   ;         ;
+; altshift.inc                      ; yes             ; Megafunction                       ; /usr/local/altera/12.1sp1/quartus/libraries/megafunctions/altshift.inc   ;         ;
+; db/mux_lmc.tdf                    ; yes             ; Auto-Generated Megafunction        ; /home/jmay/CPRE281/fProj/proj/db/mux_lmc.tdf                             ;         ;
+; 21mux.bdf                         ; yes             ; Megafunction                       ; /usr/local/altera/12.1sp1/quartus/libraries/others/maxplus2/21mux.bdf    ;         ;
+; busmux.tdf                        ; yes             ; Megafunction                       ; /usr/local/altera/12.1sp1/quartus/libraries/megafunctions/busmux.tdf     ;         ;
+; db/mux_omc.tdf                    ; yes             ; Auto-Generated Megafunction        ; /home/jmay/CPRE281/fProj/proj/db/mux_omc.tdf                             ;         ;
+; db/mux_qmc.tdf                    ; yes             ; Auto-Generated Megafunction        ; /home/jmay/CPRE281/fProj/proj/db/mux_qmc.tdf                             ;         ;
++-----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------+---------+
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+; Estimated Total logic elements              ; 271   ;
+;                                             ;       ;
+; Total combinational functions               ; 267   ;
+; Logic element usage by number of LUT inputs ;       ;
+;     -- 4 input functions                    ; 128   ;
+;     -- 3 input functions                    ; 49    ;
+;     -- <=2 input functions                  ; 90    ;
+;                                             ;       ;
+; Logic elements by mode                      ;       ;
+;     -- normal mode                          ; 267   ;
+;     -- arithmetic mode                      ; 0     ;
+;                                             ;       ;
+; Total registers                             ; 125   ;
+;     -- Dedicated logic registers            ; 125   ;
+;     -- I/O registers                        ; 0     ;
+;                                             ;       ;
+; I/O pins                                    ; 72    ;
+; Embedded Multiplier 9-bit elements          ; 0     ;
+; Maximum fan-out                             ; 44    ;
+; Total fan-out                               ; 1147  ;
+; Average fan-out                             ; 2.47  ;
++---------------------------------------------+-------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                           ;
++-----------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node        ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                            ; Library Name ;
++-----------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------+--------------+
+; |proj                             ; 267 (2)           ; 125 (0)      ; 0           ; 0            ; 0       ; 0         ; 72   ; 0            ; |proj                                                                          ;              ;
+;    |alarmFSM:inst2|               ; 12 (12)           ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|alarmFSM:inst2                                                           ;              ;
+;    |busmux:inst23|                ; 8 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|busmux:inst23                                                            ;              ;
+;       |lpm_mux:$00000|            ; 8 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|busmux:inst23|lpm_mux:$00000                                             ;              ;
+;          |mux_omc:auto_generated| ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|busmux:inst23|lpm_mux:$00000|mux_omc:auto_generated                      ;              ;
+;    |busmux:inst24|                ; 12 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|busmux:inst24                                                            ;              ;
+;       |lpm_mux:$00000|            ; 12 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|busmux:inst24|lpm_mux:$00000                                             ;              ;
+;          |mux_qmc:auto_generated| ; 12 (12)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|busmux:inst24|lpm_mux:$00000|mux_qmc:auto_generated                      ;              ;
+;    |buttonProcessing:inst3|       ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|buttonProcessing:inst3                                                   ;              ;
+;    |buttonProcessing:inst4|       ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|buttonProcessing:inst4                                                   ;              ;
+;    |mainClock:inst8|              ; 52 (2)            ; 36 (2)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8                                                          ;              ;
+;       |clkDivider:inst17|         ; 24 (0)            ; 24 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|clkDivider:inst17                                        ;              ;
+;          |clkHalf:inst10|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|clkDivider:inst17|clkHalf:inst10                         ;              ;
+;          |clkHalf:inst11|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|clkDivider:inst17|clkHalf:inst11                         ;              ;
+;          |clkHalf:inst12|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|clkDivider:inst17|clkHalf:inst12                         ;              ;
+;          |clkHalf:inst13|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|clkDivider:inst17|clkHalf:inst13                         ;              ;
+;          |clkHalf:inst14|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|clkDivider:inst17|clkHalf:inst14                         ;              ;
+;          |clkHalf:inst15|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|clkDivider:inst17|clkHalf:inst15                         ;              ;
+;          |clkHalf:inst16|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|clkDivider:inst17|clkHalf:inst16                         ;              ;
+;          |clkHalf:inst17|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|clkDivider:inst17|clkHalf:inst17                         ;              ;
+;          |clkHalf:inst18|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|clkDivider:inst17|clkHalf:inst18                         ;              ;
+;          |clkHalf:inst19|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|clkDivider:inst17|clkHalf:inst19                         ;              ;
+;          |clkHalf:inst1|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|clkDivider:inst17|clkHalf:inst1                          ;              ;
+;          |clkHalf:inst20|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|clkDivider:inst17|clkHalf:inst20                         ;              ;
+;          |clkHalf:inst21|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|clkDivider:inst17|clkHalf:inst21                         ;              ;
+;          |clkHalf:inst22|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|clkDivider:inst17|clkHalf:inst22                         ;              ;
+;          |clkHalf:inst23|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|clkDivider:inst17|clkHalf:inst23                         ;              ;
+;          |clkHalf:inst2|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|clkDivider:inst17|clkHalf:inst2                          ;              ;
+;          |clkHalf:inst3|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|clkDivider:inst17|clkHalf:inst3                          ;              ;
+;          |clkHalf:inst4|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|clkDivider:inst17|clkHalf:inst4                          ;              ;
+;          |clkHalf:inst5|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|clkDivider:inst17|clkHalf:inst5                          ;              ;
+;          |clkHalf:inst6|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|clkDivider:inst17|clkHalf:inst6                          ;              ;
+;          |clkHalf:inst7|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|clkDivider:inst17|clkHalf:inst7                          ;              ;
+;          |clkHalf:inst8|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|clkDivider:inst17|clkHalf:inst8                          ;              ;
+;          |clkHalf:inst9|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|clkDivider:inst17|clkHalf:inst9                          ;              ;
+;          |clkHalf:inst|           ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|clkDivider:inst17|clkHalf:inst                           ;              ;
+;       |counterHr:inst5|           ; 12 (1)            ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|counterHr:inst5                                          ;              ;
+;          |4bitUpDownCounter:inst| ; 11 (1)            ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|counterHr:inst5|4bitUpDownCounter:inst                   ;              ;
+;             |21mux:inst6|         ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|counterHr:inst5|4bitUpDownCounter:inst|21mux:inst6       ;              ;
+;             |21mux:inst7|         ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|counterHr:inst5|4bitUpDownCounter:inst|21mux:inst7       ;              ;
+;             |21mux:inst8|         ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|counterHr:inst5|4bitUpDownCounter:inst|21mux:inst8       ;              ;
+;             |21mux:inst9|         ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|counterHr:inst5|4bitUpDownCounter:inst|21mux:inst9       ;              ;
+;       |counterMn:inst6|           ; 14 (2)            ; 6 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|counterMn:inst6                                          ;              ;
+;          |6bitUpDownCounter:inst| ; 12 (4)            ; 6 (6)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|counterMn:inst6|6bitUpDownCounter:inst                   ;              ;
+;             |21mux:inst24|        ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|counterMn:inst6|6bitUpDownCounter:inst|21mux:inst24      ;              ;
+;             |21mux:inst25|        ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|counterMn:inst6|6bitUpDownCounter:inst|21mux:inst25      ;              ;
+;             |21mux:inst6|         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|counterMn:inst6|6bitUpDownCounter:inst|21mux:inst6       ;              ;
+;             |21mux:inst7|         ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|counterMn:inst6|6bitUpDownCounter:inst|21mux:inst7       ;              ;
+;             |21mux:inst8|         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|counterMn:inst6|6bitUpDownCounter:inst|21mux:inst8       ;              ;
+;             |21mux:inst9|         ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainClock:inst8|counterMn:inst6|6bitUpDownCounter:inst|21mux:inst9       ;              ;
+;    |mainFSM:inst1|                ; 13 (13)           ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mainFSM:inst1                                                            ;              ;
+;    |modeDecoder:stupidQ2|         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|modeDecoder:stupidQ2                                                     ;              ;
+;    |mux:stupidQ7|                 ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mux:stupidQ7                                                             ;              ;
+;       |lpm_mux:$00001|            ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mux:stupidQ7|lpm_mux:$00001                                              ;              ;
+;          |mux_lmc:auto_generated| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|mux:stupidQ7|lpm_mux:$00001|mux_lmc:auto_generated                       ;              ;
+;    |timeDecoder:inst|             ; 31 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|timeDecoder:inst                                                         ;              ;
+;       |8bit_bcd_converter:inst14| ; 9 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|timeDecoder:inst|8bit_bcd_converter:inst14                               ;              ;
+;          |add3:inst7|             ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|timeDecoder:inst|8bit_bcd_converter:inst14|add3:inst7                    ;              ;
+;          |add3:inst8|             ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|timeDecoder:inst|8bit_bcd_converter:inst14|add3:inst8                    ;              ;
+;          |add3:inst|              ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|timeDecoder:inst|8bit_bcd_converter:inst14|add3:inst                     ;              ;
+;       |bcd_covnerter:inst|        ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|timeDecoder:inst|bcd_covnerter:inst                                      ;              ;
+;       |seven_seg_decoder:inst6|   ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|timeDecoder:inst|seven_seg_decoder:inst6                                 ;              ;
+;       |seven_seg_decoder:inst7|   ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|timeDecoder:inst|seven_seg_decoder:inst7                                 ;              ;
+;       |seven_seg_decoder:inst8|   ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|timeDecoder:inst|seven_seg_decoder:inst8                                 ;              ;
+;    |upDownTime:inst17|            ; 57 (3)            ; 33 (2)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17                                                        ;              ;
+;       |clkDivider:inst17|         ; 21 (0)            ; 21 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|clkDivider:inst17                                      ;              ;
+;          |clkHalf:inst10|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|clkDivider:inst17|clkHalf:inst10                       ;              ;
+;          |clkHalf:inst11|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|clkDivider:inst17|clkHalf:inst11                       ;              ;
+;          |clkHalf:inst12|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|clkDivider:inst17|clkHalf:inst12                       ;              ;
+;          |clkHalf:inst13|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|clkDivider:inst17|clkHalf:inst13                       ;              ;
+;          |clkHalf:inst14|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|clkDivider:inst17|clkHalf:inst14                       ;              ;
+;          |clkHalf:inst15|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|clkDivider:inst17|clkHalf:inst15                       ;              ;
+;          |clkHalf:inst16|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|clkDivider:inst17|clkHalf:inst16                       ;              ;
+;          |clkHalf:inst17|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|clkDivider:inst17|clkHalf:inst17                       ;              ;
+;          |clkHalf:inst18|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|clkDivider:inst17|clkHalf:inst18                       ;              ;
+;          |clkHalf:inst19|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|clkDivider:inst17|clkHalf:inst19                       ;              ;
+;          |clkHalf:inst1|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|clkDivider:inst17|clkHalf:inst1                        ;              ;
+;          |clkHalf:inst20|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|clkDivider:inst17|clkHalf:inst20                       ;              ;
+;          |clkHalf:inst2|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|clkDivider:inst17|clkHalf:inst2                        ;              ;
+;          |clkHalf:inst3|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|clkDivider:inst17|clkHalf:inst3                        ;              ;
+;          |clkHalf:inst4|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|clkDivider:inst17|clkHalf:inst4                        ;              ;
+;          |clkHalf:inst5|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|clkDivider:inst17|clkHalf:inst5                        ;              ;
+;          |clkHalf:inst6|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|clkDivider:inst17|clkHalf:inst6                        ;              ;
+;          |clkHalf:inst7|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|clkDivider:inst17|clkHalf:inst7                        ;              ;
+;          |clkHalf:inst8|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|clkDivider:inst17|clkHalf:inst8                        ;              ;
+;          |clkHalf:inst9|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|clkDivider:inst17|clkHalf:inst9                        ;              ;
+;          |clkHalf:inst|           ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|clkDivider:inst17|clkHalf:inst                         ;              ;
+;       |counterHr:inst5|           ; 15 (3)            ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|counterHr:inst5                                        ;              ;
+;          |4bitUpDownCounter:inst| ; 12 (1)            ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|counterHr:inst5|4bitUpDownCounter:inst                 ;              ;
+;             |21mux:inst6|         ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|counterHr:inst5|4bitUpDownCounter:inst|21mux:inst6     ;              ;
+;             |21mux:inst7|         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|counterHr:inst5|4bitUpDownCounter:inst|21mux:inst7     ;              ;
+;             |21mux:inst8|         ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|counterHr:inst5|4bitUpDownCounter:inst|21mux:inst8     ;              ;
+;             |21mux:inst9|         ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|counterHr:inst5|4bitUpDownCounter:inst|21mux:inst9     ;              ;
+;       |counterMn:inst6|           ; 18 (5)            ; 6 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|counterMn:inst6                                        ;              ;
+;          |6bitUpDownCounter:inst| ; 13 (11)           ; 6 (6)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|counterMn:inst6|6bitUpDownCounter:inst                 ;              ;
+;             |21mux:inst7|         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|counterMn:inst6|6bitUpDownCounter:inst|21mux:inst7     ;              ;
+;             |21mux:inst8|         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:inst17|counterMn:inst6|6bitUpDownCounter:inst|21mux:inst8     ;              ;
+;    |upDownTime:stupidQ10|         ; 18 (1)            ; 11 (1)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ10                                                     ;              ;
+;       |counterHr:inst5|           ; 7 (2)             ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ10|counterHr:inst5                                     ;              ;
+;          |4bitUpDownCounter:inst| ; 5 (1)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ10|counterHr:inst5|4bitUpDownCounter:inst              ;              ;
+;             |21mux:inst6|         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ10|counterHr:inst5|4bitUpDownCounter:inst|21mux:inst6  ;              ;
+;             |21mux:inst7|         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ10|counterHr:inst5|4bitUpDownCounter:inst|21mux:inst7  ;              ;
+;             |21mux:inst8|         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ10|counterHr:inst5|4bitUpDownCounter:inst|21mux:inst8  ;              ;
+;             |21mux:inst9|         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ10|counterHr:inst5|4bitUpDownCounter:inst|21mux:inst9  ;              ;
+;       |counterMn:inst6|           ; 10 (2)            ; 6 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ10|counterMn:inst6                                     ;              ;
+;          |6bitUpDownCounter:inst| ; 8 (2)             ; 6 (6)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ10|counterMn:inst6|6bitUpDownCounter:inst              ;              ;
+;             |21mux:inst24|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ10|counterMn:inst6|6bitUpDownCounter:inst|21mux:inst24 ;              ;
+;             |21mux:inst25|        ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ10|counterMn:inst6|6bitUpDownCounter:inst|21mux:inst25 ;              ;
+;             |21mux:inst7|         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ10|counterMn:inst6|6bitUpDownCounter:inst|21mux:inst7  ;              ;
+;             |21mux:inst8|         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ10|counterMn:inst6|6bitUpDownCounter:inst|21mux:inst8  ;              ;
+;             |21mux:inst9|         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ10|counterMn:inst6|6bitUpDownCounter:inst|21mux:inst9  ;              ;
+;    |upDownTime:stupidQ8|          ; 57 (2)            ; 33 (2)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8                                                      ;              ;
+;       |clkDivider:inst17|         ; 21 (0)            ; 21 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|clkDivider:inst17                                    ;              ;
+;          |clkHalf:inst10|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst10                     ;              ;
+;          |clkHalf:inst11|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst11                     ;              ;
+;          |clkHalf:inst12|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst12                     ;              ;
+;          |clkHalf:inst13|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst13                     ;              ;
+;          |clkHalf:inst14|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst14                     ;              ;
+;          |clkHalf:inst15|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst15                     ;              ;
+;          |clkHalf:inst16|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst16                     ;              ;
+;          |clkHalf:inst17|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst17                     ;              ;
+;          |clkHalf:inst18|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst18                     ;              ;
+;          |clkHalf:inst19|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst19                     ;              ;
+;          |clkHalf:inst1|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst1                      ;              ;
+;          |clkHalf:inst20|         ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst20                     ;              ;
+;          |clkHalf:inst2|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst2                      ;              ;
+;          |clkHalf:inst3|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst3                      ;              ;
+;          |clkHalf:inst4|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst4                      ;              ;
+;          |clkHalf:inst5|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst5                      ;              ;
+;          |clkHalf:inst6|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst6                      ;              ;
+;          |clkHalf:inst7|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst7                      ;              ;
+;          |clkHalf:inst8|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst8                      ;              ;
+;          |clkHalf:inst9|          ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst9                      ;              ;
+;          |clkHalf:inst|           ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst                       ;              ;
+;       |counterHr:inst5|           ; 16 (3)            ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|counterHr:inst5                                      ;              ;
+;          |4bitUpDownCounter:inst| ; 13 (3)            ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|counterHr:inst5|4bitUpDownCounter:inst               ;              ;
+;             |21mux:inst6|         ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|counterHr:inst5|4bitUpDownCounter:inst|21mux:inst6   ;              ;
+;             |21mux:inst7|         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|counterHr:inst5|4bitUpDownCounter:inst|21mux:inst7   ;              ;
+;             |21mux:inst8|         ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|counterHr:inst5|4bitUpDownCounter:inst|21mux:inst8   ;              ;
+;             |21mux:inst9|         ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|counterHr:inst5|4bitUpDownCounter:inst|21mux:inst9   ;              ;
+;       |counterMn:inst6|           ; 18 (5)            ; 6 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|counterMn:inst6                                      ;              ;
+;          |6bitUpDownCounter:inst| ; 13 (11)           ; 6 (6)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|counterMn:inst6|6bitUpDownCounter:inst               ;              ;
+;             |21mux:inst7|         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|counterMn:inst6|6bitUpDownCounter:inst|21mux:inst7   ;              ;
+;             |21mux:inst8|         ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proj|upDownTime:stupidQ8|counterMn:inst6|6bitUpDownCounter:inst|21mux:inst8   ;              ;
++-----------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++---------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                ;
++------------------------------------------------------------+--------------------------------------+
+; Register name                                              ; Reason for Removal                   ;
++------------------------------------------------------------+--------------------------------------+
+; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst|inst   ; Stuck at GND due to stuck port clear ;
+; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst1|inst  ; Stuck at GND due to stuck port clear ;
+; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst2|inst  ; Stuck at GND due to stuck port clear ;
+; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst3|inst  ; Stuck at GND due to stuck port clear ;
+; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst4|inst  ; Stuck at GND due to stuck port clear ;
+; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst5|inst  ; Stuck at GND due to stuck port clear ;
+; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst6|inst  ; Stuck at GND due to stuck port clear ;
+; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst7|inst  ; Stuck at GND due to stuck port clear ;
+; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst8|inst  ; Stuck at GND due to stuck port clear ;
+; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst9|inst  ; Stuck at GND due to stuck port clear ;
+; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst10|inst ; Stuck at GND due to stuck port clear ;
+; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst11|inst ; Stuck at GND due to stuck port clear ;
+; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst12|inst ; Stuck at GND due to stuck port clear ;
+; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst13|inst ; Stuck at GND due to stuck port clear ;
+; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst14|inst ; Stuck at GND due to stuck port clear ;
+; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst15|inst ; Stuck at GND due to stuck port clear ;
+; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst16|inst ; Stuck at GND due to stuck port clear ;
+; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst17|inst ; Stuck at GND due to stuck port clear ;
+; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst18|inst ; Stuck at GND due to stuck port clear ;
+; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst19|inst ; Stuck at GND due to stuck port clear ;
+; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst20|inst ; Stuck at GND due to stuck port clear ;
+; upDownTime:stupidQ10|inst23                                ; Lost fanout                          ;
+; Total Number of Removed Registers = 22                     ;                                      ;
++------------------------------------------------------------+--------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                                                      ;
++----------------------------------------------------------+-------------------------+-------------------------------------------------------------+
+; Register name                                            ; Reason for Removal      ; Registers Removed due to This Register                      ;
++----------------------------------------------------------+-------------------------+-------------------------------------------------------------+
+; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst|inst ; Stuck at GND            ; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst1|inst,  ;
+;                                                          ; due to stuck port clear ; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst2|inst,  ;
+;                                                          ;                         ; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst3|inst,  ;
+;                                                          ;                         ; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst4|inst,  ;
+;                                                          ;                         ; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst5|inst,  ;
+;                                                          ;                         ; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst6|inst,  ;
+;                                                          ;                         ; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst7|inst,  ;
+;                                                          ;                         ; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst8|inst,  ;
+;                                                          ;                         ; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst9|inst,  ;
+;                                                          ;                         ; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst10|inst, ;
+;                                                          ;                         ; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst11|inst, ;
+;                                                          ;                         ; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst12|inst, ;
+;                                                          ;                         ; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst13|inst, ;
+;                                                          ;                         ; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst14|inst, ;
+;                                                          ;                         ; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst15|inst, ;
+;                                                          ;                         ; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst16|inst, ;
+;                                                          ;                         ; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst17|inst, ;
+;                                                          ;                         ; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst18|inst, ;
+;                                                          ;                         ; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst19|inst, ;
+;                                                          ;                         ; upDownTime:stupidQ10|clkDivider:inst17|clkHalf:inst20|inst  ;
++----------------------------------------------------------+-------------------------+-------------------------------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 125   ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 27    ;
+; Number of registers using Asynchronous Clear ; 42    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                         ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                               ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------+
+; 3:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; Yes        ; |proj|upDownTime:stupidQ8|counterMn:inst6|6bitUpDownCounter:inst|inst    ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |proj|upDownTime:stupidQ8|counterHr:inst5|4bitUpDownCounter:inst|inst2   ;
+; 3:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; Yes        ; |proj|upDownTime:inst17|counterMn:inst6|6bitUpDownCounter:inst|inst23    ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |proj|upDownTime:inst17|counterHr:inst5|4bitUpDownCounter:inst|inst2     ;
+; 3:1                ; 11 bits   ; 22 LEs        ; 22 LEs               ; 0 LEs                  ; No         ; |proj|busmux:inst24|lpm_mux:$00000|mux_qmc:auto_generated|result_node[1] ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: MUX:stupidQ7 ;
++----------------+-------+----------------------------------+
+; Parameter Name ; Value ; Type                             ;
++----------------+-------+----------------------------------+
+; WIDTH          ; 2     ; Untyped                          ;
+; WIDTHS         ; 1     ; Untyped                          ;
++----------------+-------+----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: MUX:stupidQ6 ;
++----------------+-------+----------------------------------+
+; Parameter Name ; Value ; Type                             ;
++----------------+-------+----------------------------------+
+; WIDTH          ; 2     ; Untyped                          ;
+; WIDTHS         ; 1     ; Untyped                          ;
++----------------+-------+----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: BUSMUX:inst6 ;
++----------------+-------+----------------------------------+
+; Parameter Name ; Value ; Type                             ;
++----------------+-------+----------------------------------+
+; WIDTH          ; 4     ; Untyped                          ;
++----------------+-------+----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: BUSMUX:inst23 ;
++----------------+-------+-----------------------------------+
+; Parameter Name ; Value ; Type                              ;
++----------------+-------+-----------------------------------+
+; WIDTH          ; 4     ; Untyped                           ;
++----------------+-------+-----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: BUSMUX:inst18 ;
++----------------+-------+-----------------------------------+
+; Parameter Name ; Value ; Type                              ;
++----------------+-------+-----------------------------------+
+; WIDTH          ; 4     ; Untyped                           ;
++----------------+-------+-----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: BUSMUX:inst24 ;
++----------------+-------+-----------------------------------+
+; Parameter Name ; Value ; Type                              ;
++----------------+-------+-----------------------------------+
+; WIDTH          ; 6     ; Untyped                           ;
++----------------+-------+-----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: BUSMUX:inst19 ;
++----------------+-------+-----------------------------------+
+; Parameter Name ; Value ; Type                              ;
++----------------+-------+-----------------------------------+
+; WIDTH          ; 6     ; Untyped                           ;
++----------------+-------+-----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 12.1 Build 243 01/31/2013 Service Pack 1 SJ Full Version
+    Info: Processing started: Tue Dec  8 14:19:47 2015
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off proj -c proj
+Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
+Info (12021): Found 1 design units, including 1 entities, in source file full_adder.bdf
+    Info (12023): Found entity 1: full_adder
+Info (12021): Found 1 design units, including 1 entities, in source file adder_4bit.bdf
+    Info (12023): Found entity 1: adder_4bit
+Info (12021): Found 1 design units, including 1 entities, in source file bcd_converter.v
+    Info (12023): Found entity 1: bcd_covnerter
+Info (12021): Found 1 design units, including 1 entities, in source file seven_seg_decoder.v
+    Info (12023): Found entity 1: seven_seg_decoder
+Info (12021): Found 1 design units, including 1 entities, in source file 6bitUpDownCounter.bdf
+    Info (12023): Found entity 1: 6bitUpDownCounter
+Info (12021): Found 1 design units, including 1 entities, in source file proj.bdf
+    Info (12023): Found entity 1: proj
+Info (12021): Found 1 design units, including 1 entities, in source file clkHalf.bdf
+    Info (12023): Found entity 1: clkHalf
+Info (12021): Found 1 design units, including 1 entities, in source file output_files/clkDivider.bdf
+    Info (12023): Found entity 1: clkDivider
+Info (12021): Found 1 design units, including 1 entities, in source file output_files/counterHr.bdf
+    Info (12023): Found entity 1: counterHr
+Info (12021): Found 1 design units, including 1 entities, in source file 4bitUpDownCounter.bdf
+    Info (12023): Found entity 1: 4bitUpDownCounter
+Info (12021): Found 1 design units, including 1 entities, in source file mainClock.bdf
+    Info (12023): Found entity 1: mainClock
+Info (12021): Found 1 design units, including 1 entities, in source file output_files/counterMn.bdf
+    Info (12023): Found entity 1: counterMn
+Info (12021): Found 1 design units, including 1 entities, in source file add3.v
+    Info (12023): Found entity 1: add3
+Info (12021): Found 1 design units, including 1 entities, in source file 8bit_bcd_converter.bdf
+    Info (12023): Found entity 1: 8bit_bcd_converter
+Info (12021): Found 1 design units, including 1 entities, in source file mainFSM.bdf
+    Info (12023): Found entity 1: mainFSM
+Info (12021): Found 1 design units, including 1 entities, in source file output_files/buttonProcessing.bdf
+    Info (12023): Found entity 1: buttonProcessing
+Info (12021): Found 1 design units, including 1 entities, in source file output_files/timeDecoder.bdf
+    Info (12023): Found entity 1: timeDecoder
+Info (12021): Found 1 design units, including 1 entities, in source file output_files/modeDecoder.bdf
+    Info (12023): Found entity 1: modeDecoder
+Info (12021): Found 1 design units, including 1 entities, in source file output_files/srLatch.bdf
+    Info (12023): Found entity 1: srLatch
+Info (12021): Found 1 design units, including 1 entities, in source file output_files/upDownTime.bdf
+    Info (12023): Found entity 1: upDownTime
+Info (12021): Found 1 design units, including 1 entities, in source file output_files/timeCompare.bdf
+    Info (12023): Found entity 1: timeCompare
+Info (12021): Found 1 design units, including 1 entities, in source file output_files/alarmFSM.bdf
+    Info (12023): Found entity 1: alarmFSM
+Info (12127): Elaborating entity "proj" for the top level hierarchy
+Warning (275083): Bus "data1[1..0]" found using same base name as "data", which might lead to a name conflict.
+Warning (275083): Bus "data1[0]" found using same base name as "data", which might lead to a name conflict.
+Warning (275083): Bus "data1[1]" found using same base name as "data", which might lead to a name conflict.
+Warning (275085): Found inconsistent dimensions for element "AMPM"
+Warning (275080): Converted elements in bus name "AMPM" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "AMPM[6..0]" to "AMPM6..0"
+Warning (275083): Bus "Hin1[3..0]" found using same base name as "Hin", which might lead to a name conflict.
+Warning (275083): Bus "Min1[5..0]" found using same base name as "Min", which might lead to a name conflict.
+Warning (275080): Converted elements in bus name "Hin" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "Hin[3..0]" to "Hin3..0"
+Warning (275080): Converted elements in bus name "Hin1" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "Hin1[3..0]" to "Hin13..0"
+Warning (275080): Converted elements in bus name "Min" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "Min[5..0]" to "Min5..0"
+Warning (275080): Converted elements in bus name "Min1" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "Min1[5..0]" to "Min15..0"
+Warning (275080): Converted elements in bus name "data" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "data[1]" to "data1"
+    Warning (275081): Converted element name(s) from "data[1..0]" to "data1..0"
+    Warning (275081): Converted element name(s) from "data[0]" to "data0"
+Warning (275080): Converted elements in bus name "data1" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "data1[1..0]" to "data11..0"
+    Warning (275081): Converted element name(s) from "data1[0]" to "data10"
+    Warning (275081): Converted element name(s) from "data1[1]" to "data11"
+Warning (275043): Pin "LEDR[6]" is missing source
+Info (12128): Elaborating entity "modeDecoder" for hierarchy "modeDecoder:stupidQ2"
+Info (12128): Elaborating entity "mainFSM" for hierarchy "mainFSM:inst1"
+Info (12128): Elaborating entity "buttonProcessing" for hierarchy "buttonProcessing:inst3"
+Info (12128): Elaborating entity "timeDecoder" for hierarchy "timeDecoder:inst"
+Warning (275085): Found inconsistent dimensions for element "AMPM"
+Warning (275080): Converted elements in bus name "AMPM" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "AMPM[6..0]" to "AMPM6..0"
+Warning (275043): Pin "AMPM6" is missing source
+Warning (275043): Pin "AMPM5" is missing source
+Warning (275043): Pin "AMPM4" is missing source
+Warning (275043): Pin "AMPM1" is missing source
+Warning (275043): Pin "AMPM0" is missing source
+Info (12128): Elaborating entity "seven_seg_decoder" for hierarchy "timeDecoder:inst|seven_seg_decoder:inst8"
+Info (12128): Elaborating entity "bcd_covnerter" for hierarchy "timeDecoder:inst|bcd_covnerter:inst"
+Info (12128): Elaborating entity "8bit_bcd_converter" for hierarchy "timeDecoder:inst|8bit_bcd_converter:inst14"
+Info (12128): Elaborating entity "add3" for hierarchy "timeDecoder:inst|8bit_bcd_converter:inst14|add3:inst8"
+Info (12128): Elaborating entity "MUX" for hierarchy "MUX:stupidQ7"
+Info (12130): Elaborated megafunction instantiation "MUX:stupidQ7"
+Info (12133): Instantiated megafunction "MUX:stupidQ7" with the following parameter:
+    Info (12134): Parameter "WIDTH" = "2"
+    Info (12134): Parameter "WIDTHS" = "1"
+Info (12128): Elaborating entity "lpm_mux" for hierarchy "MUX:stupidQ7|lpm_mux:$00001"
+Info (12131): Elaborated megafunction instantiation "MUX:stupidQ7|lpm_mux:$00001", which is child of megafunction instantiation "MUX:stupidQ7"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mux_lmc.tdf
+    Info (12023): Found entity 1: mux_lmc
+Info (12128): Elaborating entity "mux_lmc" for hierarchy "MUX:stupidQ7|lpm_mux:$00001|mux_lmc:auto_generated"
+Info (12128): Elaborating entity "upDownTime" for hierarchy "upDownTime:stupidQ8"
+Warning (275011): Block or symbol "NOT" of instance "inst14" overlaps another block or symbol
+Warning (275011): Block or symbol "DFF" of instance "inst23" overlaps another block or symbol
+Warning (275011): Block or symbol "XOR" of instance "inst9" overlaps another block or symbol
+Info (12128): Elaborating entity "clkDivider" for hierarchy "upDownTime:stupidQ8|clkDivider:inst17"
+Info (12128): Elaborating entity "clkHalf" for hierarchy "upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst22"
+Info (12128): Elaborating entity "counterHr" for hierarchy "upDownTime:stupidQ8|counterHr:inst5"
+Warning (275011): Block or symbol "AND2" of instance "inst1" overlaps another block or symbol
+Info (12128): Elaborating entity "4bitUpDownCounter" for hierarchy "upDownTime:stupidQ8|counterHr:inst5|4bitUpDownCounter:inst"
+Info (12128): Elaborating entity "21mux" for hierarchy "upDownTime:stupidQ8|counterHr:inst5|4bitUpDownCounter:inst|21mux:inst9"
+Info (12130): Elaborated megafunction instantiation "upDownTime:stupidQ8|counterHr:inst5|4bitUpDownCounter:inst|21mux:inst9"
+Info (12128): Elaborating entity "counterMn" for hierarchy "upDownTime:stupidQ8|counterMn:inst6"
+Info (12128): Elaborating entity "6bitUpDownCounter" for hierarchy "upDownTime:stupidQ8|counterMn:inst6|6bitUpDownCounter:inst"
+Info (12128): Elaborating entity "mainClock" for hierarchy "mainClock:inst8"
+Warning (275011): Block or symbol "XOR" of instance "inst11" overlaps another block or symbol
+Info (12128): Elaborating entity "BUSMUX" for hierarchy "BUSMUX:inst6"
+Info (12130): Elaborated megafunction instantiation "BUSMUX:inst6"
+Info (12133): Instantiated megafunction "BUSMUX:inst6" with the following parameter:
+    Info (12134): Parameter "WIDTH" = "4"
+Info (12128): Elaborating entity "lpm_mux" for hierarchy "BUSMUX:inst6|lpm_mux:$00000"
+Info (12131): Elaborated megafunction instantiation "BUSMUX:inst6|lpm_mux:$00000", which is child of megafunction instantiation "BUSMUX:inst6"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mux_omc.tdf
+    Info (12023): Found entity 1: mux_omc
+Info (12128): Elaborating entity "mux_omc" for hierarchy "BUSMUX:inst6|lpm_mux:$00000|mux_omc:auto_generated"
+Info (12128): Elaborating entity "BUSMUX" for hierarchy "BUSMUX:inst23"
+Info (12130): Elaborated megafunction instantiation "BUSMUX:inst23"
+Info (12133): Instantiated megafunction "BUSMUX:inst23" with the following parameter:
+    Info (12134): Parameter "WIDTH" = "4"
+Info (12128): Elaborating entity "BUSMUX" for hierarchy "BUSMUX:inst24"
+Info (12130): Elaborated megafunction instantiation "BUSMUX:inst24"
+Info (12133): Instantiated megafunction "BUSMUX:inst24" with the following parameter:
+    Info (12134): Parameter "WIDTH" = "6"
+Info (12128): Elaborating entity "lpm_mux" for hierarchy "BUSMUX:inst24|lpm_mux:$00000"
+Info (12131): Elaborated megafunction instantiation "BUSMUX:inst24|lpm_mux:$00000", which is child of megafunction instantiation "BUSMUX:inst24"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mux_qmc.tdf
+    Info (12023): Found entity 1: mux_qmc
+Info (12128): Elaborating entity "mux_qmc" for hierarchy "BUSMUX:inst24|lpm_mux:$00000|mux_qmc:auto_generated"
+Info (12128): Elaborating entity "alarmFSM" for hierarchy "alarmFSM:inst2"
+Warning (275083): Bus "Hin1[3..0]" found using same base name as "Hin", which might lead to a name conflict.
+Warning (275083): Bus "Min1[5..0]" found using same base name as "Min", which might lead to a name conflict.
+Warning (275083): Bus "Hin1[3..0]" found using same base name as "Hin", which might lead to a name conflict.
+Warning (275083): Bus "Min1[5..0]" found using same base name as "Min", which might lead to a name conflict.
+Warning (275080): Converted elements in bus name "Hin" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "Hin[3..0]" to "Hin3..0"
+Warning (275080): Converted elements in bus name "Hin1" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "Hin1[3..0]" to "Hin13..0"
+Warning (275080): Converted elements in bus name "Min" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "Min[5..0]" to "Min5..0"
+Warning (275080): Converted elements in bus name "Min1" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "Min1[5..0]" to "Min15..0"
+Warning (275080): Converted elements in bus name "Hin" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "Hin[3..0]" to "Hin3..0"
+Warning (275080): Converted elements in bus name "Hin1" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "Hin1[3..0]" to "Hin13..0"
+Warning (275080): Converted elements in bus name "Min" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "Min[5..0]" to "Min5..0"
+Warning (275080): Converted elements in bus name "Min1" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "Min1[5..0]" to "Min15..0"
+Info (12128): Elaborating entity "timeCompare" for hierarchy "alarmFSM:inst2|timeCompare:stupidQ"
+Warning (275083): Bus "Hin1[3..0]" found using same base name as "Hin", which might lead to a name conflict.
+Warning (275083): Bus "Min1[5..0]" found using same base name as "Min", which might lead to a name conflict.
+Warning (275083): Bus "Hin1[0]" found using same base name as "Hin", which might lead to a name conflict.
+Warning (275083): Bus "Hin1[1]" found using same base name as "Hin", which might lead to a name conflict.
+Warning (275083): Bus "Hin1[2]" found using same base name as "Hin", which might lead to a name conflict.
+Warning (275083): Bus "Hin1[3]" found using same base name as "Hin", which might lead to a name conflict.
+Warning (275083): Bus "Min1[0]" found using same base name as "Min", which might lead to a name conflict.
+Warning (275083): Bus "Min1[1]" found using same base name as "Min", which might lead to a name conflict.
+Warning (275083): Bus "Min1[2]" found using same base name as "Min", which might lead to a name conflict.
+Warning (275083): Bus "Min1[3]" found using same base name as "Min", which might lead to a name conflict.
+Warning (275083): Bus "Min1[4]" found using same base name as "Min", which might lead to a name conflict.
+Warning (275083): Bus "Min1[5]" found using same base name as "Min", which might lead to a name conflict.
+Warning (275080): Converted elements in bus name "Hin" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "Hin[3..0]" to "Hin3..0"
+Warning (275080): Converted elements in bus name "Hin1" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "Hin1[3..0]" to "Hin13..0"
+Warning (275080): Converted elements in bus name "Min" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "Min[5..0]" to "Min5..0"
+Warning (275080): Converted elements in bus name "Min1" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "Min1[5..0]" to "Min15..0"
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "HEX1[6]" is stuck at VCC
+    Warning (13410): Pin "HEX1[5]" is stuck at VCC
+    Warning (13410): Pin "HEX1[4]" is stuck at VCC
+    Warning (13410): Pin "HEX1[3]" is stuck at VCC
+    Warning (13410): Pin "HEX1[2]" is stuck at VCC
+    Warning (13410): Pin "HEX1[1]" is stuck at VCC
+    Warning (13410): Pin "HEX1[0]" is stuck at VCC
+    Warning (13410): Pin "HEX2[6]" is stuck at VCC
+    Warning (13410): Pin "HEX2[5]" is stuck at VCC
+    Warning (13410): Pin "HEX2[4]" is stuck at VCC
+    Warning (13410): Pin "HEX2[3]" is stuck at VCC
+    Warning (13410): Pin "HEX2[2]" is stuck at VCC
+    Warning (13410): Pin "HEX2[1]" is stuck at VCC
+    Warning (13410): Pin "HEX2[0]" is stuck at VCC
+    Warning (13410): Pin "HEX3[6]" is stuck at GND
+    Warning (13410): Pin "HEX3[5]" is stuck at GND
+    Warning (13410): Pin "HEX3[4]" is stuck at GND
+    Warning (13410): Pin "HEX3[3]" is stuck at VCC
+    Warning (13410): Pin "HEX3[1]" is stuck at GND
+    Warning (13410): Pin "HEX3[0]" is stuck at GND
+    Warning (13410): Pin "HEX7[6]" is stuck at VCC
+    Warning (13410): Pin "HEX7[2]" is stuck at GND
+    Warning (13410): Pin "HEX7[1]" is stuck at GND
+    Warning (13410): Pin "LEDR[6]" is stuck at GND
+Info (17049): 1 registers lost all their fanouts during netlist optimizations.
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 343 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 6 input pins
+    Info (21059): Implemented 66 output pins
+    Info (21061): Implemented 271 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 103 warnings
+    Info: Peak virtual memory: 633 megabytes
+    Info: Processing ended: Tue Dec  8 14:19:59 2015
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:03
+
+

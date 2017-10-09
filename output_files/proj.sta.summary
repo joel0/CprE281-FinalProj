@@ -1,0 +1,2269 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'CLOCK_50'
+Slack : -5.160
+TNS   : -48.017
+
+Type  : Slow Model Setup 'mainFSM:inst1|inst7~_Duplicate_1'
+Slack : -4.391
+TNS   : -46.557
+
+Type  : Slow Model Setup 'KEY[2]'
+Slack : -3.247
+TNS   : -67.953
+
+Type  : Slow Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst23|inst'
+Slack : -2.452
+TNS   : -22.468
+
+Type  : Slow Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst19|inst'
+Slack : 0.379
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst19|inst'
+Slack : 0.379
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst12|inst'
+Slack : 0.949
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst8|inst'
+Slack : 0.949
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst|inst'
+Slack : 0.949
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst11|inst'
+Slack : 0.949
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst6|inst'
+Slack : 0.949
+TNS   : 0.000
+
+Type  : Slow Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst10|inst'
+Slack : 0.950
+TNS   : 0.000
+
+Type  : Slow Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst4|inst'
+Slack : 0.950
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst16|inst'
+Slack : 0.950
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst18|inst'
+Slack : 0.950
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst4|inst'
+Slack : 0.950
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst6|inst'
+Slack : 0.950
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst4|inst'
+Slack : 0.950
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst|inst'
+Slack : 0.950
+TNS   : 0.000
+
+Type  : Slow Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst12|inst'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Slow Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst14|inst'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Slow Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst16|inst'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Slow Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst18|inst'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Slow Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst20|inst'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Slow Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst22|inst'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Slow Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst2|inst'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Slow Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst6|inst'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Slow Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst8|inst'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Slow Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst|inst'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst14|inst'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst2|inst'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst13|inst'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst15|inst'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst2|inst'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst9|inst'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Slow Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst13|inst'
+Slack : 1.088
+TNS   : 0.000
+
+Type  : Slow Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst15|inst'
+Slack : 1.088
+TNS   : 0.000
+
+Type  : Slow Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst3|inst'
+Slack : 1.088
+TNS   : 0.000
+
+Type  : Slow Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst7|inst'
+Slack : 1.088
+TNS   : 0.000
+
+Type  : Slow Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst9|inst'
+Slack : 1.088
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst11|inst'
+Slack : 1.088
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst1|inst'
+Slack : 1.088
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst3|inst'
+Slack : 1.088
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst5|inst'
+Slack : 1.088
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst9|inst'
+Slack : 1.088
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst10|inst'
+Slack : 1.088
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst12|inst'
+Slack : 1.088
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst15|inst'
+Slack : 1.095
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst17|inst'
+Slack : 1.095
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst3|inst'
+Slack : 1.104
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst5|inst'
+Slack : 1.104
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst10|inst'
+Slack : 1.131
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst17|inst'
+Slack : 1.131
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst18|inst'
+Slack : 1.131
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst13|inst'
+Slack : 1.132
+TNS   : 0.000
+
+Type  : Slow Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst5|inst'
+Slack : 1.133
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst7|inst'
+Slack : 1.347
+TNS   : 0.000
+
+Type  : Slow Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst19|inst'
+Slack : 1.348
+TNS   : 0.000
+
+Type  : Slow Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst21|inst'
+Slack : 1.349
+TNS   : 0.000
+
+Type  : Slow Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst11|inst'
+Slack : 1.418
+TNS   : 0.000
+
+Type  : Slow Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst17|inst'
+Slack : 1.420
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst7|inst'
+Slack : 1.420
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst14|inst'
+Slack : 1.428
+TNS   : 0.000
+
+Type  : Slow Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst1|inst'
+Slack : 1.430
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst8|inst'
+Slack : 1.431
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst1|inst'
+Slack : 1.434
+TNS   : 0.000
+
+Type  : Slow Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst16|inst'
+Slack : 1.440
+TNS   : 0.000
+
+Type  : Slow Model Hold 'CLOCK_50'
+Slack : -4.496
+TNS   : -32.109
+
+Type  : Slow Model Hold 'KEY[2]'
+Slack : -1.998
+TNS   : -30.711
+
+Type  : Slow Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst16|inst'
+Slack : -1.170
+TNS   : -1.170
+
+Type  : Slow Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst1|inst'
+Slack : -1.164
+TNS   : -1.164
+
+Type  : Slow Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst8|inst'
+Slack : -1.161
+TNS   : -1.161
+
+Type  : Slow Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst1|inst'
+Slack : -1.160
+TNS   : -1.160
+
+Type  : Slow Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst14|inst'
+Slack : -1.158
+TNS   : -1.158
+
+Type  : Slow Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst17|inst'
+Slack : -1.150
+TNS   : -1.150
+
+Type  : Slow Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst7|inst'
+Slack : -1.150
+TNS   : -1.150
+
+Type  : Slow Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst11|inst'
+Slack : -1.148
+TNS   : -1.148
+
+Type  : Slow Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst21|inst'
+Slack : -1.079
+TNS   : -1.079
+
+Type  : Slow Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst19|inst'
+Slack : -1.078
+TNS   : -1.078
+
+Type  : Slow Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst7|inst'
+Slack : -1.077
+TNS   : -1.077
+
+Type  : Slow Model Hold 'mainFSM:inst1|inst7~_Duplicate_1'
+Slack : -0.948
+TNS   : -8.888
+
+Type  : Slow Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst5|inst'
+Slack : -0.863
+TNS   : -0.863
+
+Type  : Slow Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst13|inst'
+Slack : -0.862
+TNS   : -0.862
+
+Type  : Slow Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst10|inst'
+Slack : -0.861
+TNS   : -0.861
+
+Type  : Slow Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst17|inst'
+Slack : -0.861
+TNS   : -0.861
+
+Type  : Slow Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst18|inst'
+Slack : -0.861
+TNS   : -0.861
+
+Type  : Slow Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst3|inst'
+Slack : -0.834
+TNS   : -0.834
+
+Type  : Slow Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst5|inst'
+Slack : -0.834
+TNS   : -0.834
+
+Type  : Slow Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst15|inst'
+Slack : -0.825
+TNS   : -0.825
+
+Type  : Slow Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst17|inst'
+Slack : -0.825
+TNS   : -0.825
+
+Type  : Slow Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst13|inst'
+Slack : -0.818
+TNS   : -0.818
+
+Type  : Slow Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst15|inst'
+Slack : -0.818
+TNS   : -0.818
+
+Type  : Slow Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst3|inst'
+Slack : -0.818
+TNS   : -0.818
+
+Type  : Slow Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst7|inst'
+Slack : -0.818
+TNS   : -0.818
+
+Type  : Slow Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst9|inst'
+Slack : -0.818
+TNS   : -0.818
+
+Type  : Slow Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst11|inst'
+Slack : -0.818
+TNS   : -0.818
+
+Type  : Slow Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst1|inst'
+Slack : -0.818
+TNS   : -0.818
+
+Type  : Slow Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst3|inst'
+Slack : -0.818
+TNS   : -0.818
+
+Type  : Slow Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst5|inst'
+Slack : -0.818
+TNS   : -0.818
+
+Type  : Slow Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst9|inst'
+Slack : -0.818
+TNS   : -0.818
+
+Type  : Slow Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst10|inst'
+Slack : -0.818
+TNS   : -0.818
+
+Type  : Slow Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst12|inst'
+Slack : -0.818
+TNS   : -0.818
+
+Type  : Slow Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst12|inst'
+Slack : -0.681
+TNS   : -0.681
+
+Type  : Slow Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst14|inst'
+Slack : -0.681
+TNS   : -0.681
+
+Type  : Slow Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst16|inst'
+Slack : -0.681
+TNS   : -0.681
+
+Type  : Slow Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst18|inst'
+Slack : -0.681
+TNS   : -0.681
+
+Type  : Slow Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst20|inst'
+Slack : -0.681
+TNS   : -0.681
+
+Type  : Slow Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst22|inst'
+Slack : -0.681
+TNS   : -0.681
+
+Type  : Slow Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst2|inst'
+Slack : -0.681
+TNS   : -0.681
+
+Type  : Slow Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst6|inst'
+Slack : -0.681
+TNS   : -0.681
+
+Type  : Slow Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst8|inst'
+Slack : -0.681
+TNS   : -0.681
+
+Type  : Slow Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst|inst'
+Slack : -0.681
+TNS   : -0.681
+
+Type  : Slow Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst14|inst'
+Slack : -0.681
+TNS   : -0.681
+
+Type  : Slow Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst2|inst'
+Slack : -0.681
+TNS   : -0.681
+
+Type  : Slow Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst13|inst'
+Slack : -0.681
+TNS   : -0.681
+
+Type  : Slow Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst15|inst'
+Slack : -0.681
+TNS   : -0.681
+
+Type  : Slow Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst2|inst'
+Slack : -0.681
+TNS   : -0.681
+
+Type  : Slow Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst9|inst'
+Slack : -0.681
+TNS   : -0.681
+
+Type  : Slow Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst10|inst'
+Slack : -0.680
+TNS   : -0.680
+
+Type  : Slow Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst4|inst'
+Slack : -0.680
+TNS   : -0.680
+
+Type  : Slow Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst16|inst'
+Slack : -0.680
+TNS   : -0.680
+
+Type  : Slow Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst18|inst'
+Slack : -0.680
+TNS   : -0.680
+
+Type  : Slow Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst4|inst'
+Slack : -0.680
+TNS   : -0.680
+
+Type  : Slow Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst6|inst'
+Slack : -0.680
+TNS   : -0.680
+
+Type  : Slow Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst4|inst'
+Slack : -0.680
+TNS   : -0.680
+
+Type  : Slow Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst|inst'
+Slack : -0.680
+TNS   : -0.680
+
+Type  : Slow Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst12|inst'
+Slack : -0.679
+TNS   : -0.679
+
+Type  : Slow Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst8|inst'
+Slack : -0.679
+TNS   : -0.679
+
+Type  : Slow Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst|inst'
+Slack : -0.679
+TNS   : -0.679
+
+Type  : Slow Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst11|inst'
+Slack : -0.679
+TNS   : -0.679
+
+Type  : Slow Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst6|inst'
+Slack : -0.679
+TNS   : -0.679
+
+Type  : Slow Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst23|inst'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst19|inst'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst19|inst'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst|inst'
+Slack : -2.720
+TNS   : -2.720
+
+Type  : Slow Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst15|inst'
+Slack : -2.576
+TNS   : -2.576
+
+Type  : Slow Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst18|inst'
+Slack : -2.573
+TNS   : -2.573
+
+Type  : Slow Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst6|inst'
+Slack : -2.573
+TNS   : -2.573
+
+Type  : Slow Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst4|inst'
+Slack : -2.570
+TNS   : -2.570
+
+Type  : Slow Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst16|inst'
+Slack : -2.566
+TNS   : -2.566
+
+Type  : Slow Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst8|inst'
+Slack : -2.562
+TNS   : -2.562
+
+Type  : Slow Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst14|inst'
+Slack : -2.560
+TNS   : -2.560
+
+Type  : Slow Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst2|inst'
+Slack : -2.557
+TNS   : -2.557
+
+Type  : Slow Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst12|inst'
+Slack : -2.553
+TNS   : -2.553
+
+Type  : Slow Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst2|inst'
+Slack : -2.498
+TNS   : -2.498
+
+Type  : Slow Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst|inst'
+Slack : -2.490
+TNS   : -2.490
+
+Type  : Slow Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst4|inst'
+Slack : -2.489
+TNS   : -2.489
+
+Type  : Slow Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst6|inst'
+Slack : -2.488
+TNS   : -2.488
+
+Type  : Slow Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst9|inst'
+Slack : -2.486
+TNS   : -2.486
+
+Type  : Slow Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst13|inst'
+Slack : -2.475
+TNS   : -2.475
+
+Type  : Slow Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst17|inst'
+Slack : -2.428
+TNS   : -2.428
+
+Type  : Slow Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst9|inst'
+Slack : -2.423
+TNS   : -2.423
+
+Type  : Slow Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst15|inst'
+Slack : -2.421
+TNS   : -2.421
+
+Type  : Slow Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst5|inst'
+Slack : -2.418
+TNS   : -2.418
+
+Type  : Slow Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst3|inst'
+Slack : -2.416
+TNS   : -2.416
+
+Type  : Slow Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst11|inst'
+Slack : -2.414
+TNS   : -2.414
+
+Type  : Slow Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst10|inst'
+Slack : -2.380
+TNS   : -2.380
+
+Type  : Slow Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst13|inst'
+Slack : -2.379
+TNS   : -2.379
+
+Type  : Slow Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst1|inst'
+Slack : -2.361
+TNS   : -2.361
+
+Type  : Slow Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst3|inst'
+Slack : -2.351
+TNS   : -2.351
+
+Type  : Slow Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst5|inst'
+Slack : -2.350
+TNS   : -2.350
+
+Type  : Slow Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst12|inst'
+Slack : -2.338
+TNS   : -2.338
+
+Type  : Slow Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst11|inst'
+Slack : -2.271
+TNS   : -2.271
+
+Type  : Slow Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst19|inst'
+Slack : -2.257
+TNS   : -2.257
+
+Type  : Slow Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst7|inst'
+Slack : -2.164
+TNS   : -2.164
+
+Type  : Slow Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst10|inst'
+Slack : -2.132
+TNS   : -2.132
+
+Type  : Slow Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst7|inst'
+Slack : -2.104
+TNS   : -2.104
+
+Type  : Slow Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst14|inst'
+Slack : -2.099
+TNS   : -2.099
+
+Type  : Slow Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst18|inst'
+Slack : -2.077
+TNS   : -2.077
+
+Type  : Slow Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst1|inst'
+Slack : -2.074
+TNS   : -2.074
+
+Type  : Slow Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst8|inst'
+Slack : -2.006
+TNS   : -2.006
+
+Type  : Slow Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst17|inst'
+Slack : -1.864
+TNS   : -1.864
+
+Type  : Slow Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst19|inst'
+Slack : -1.812
+TNS   : -1.812
+
+Type  : Slow Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst16|inst'
+Slack : -1.555
+TNS   : -1.555
+
+Type  : Slow Model Recovery 'CLOCK_50'
+Slack : -0.861
+TNS   : -0.861
+
+Type  : Slow Model Removal 'CLOCK_50'
+Slack : -0.250
+TNS   : -0.250
+
+Type  : Slow Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst16|inst'
+Slack : 1.825
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst19|inst'
+Slack : 2.082
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst17|inst'
+Slack : 2.134
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst8|inst'
+Slack : 2.276
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst1|inst'
+Slack : 2.344
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst18|inst'
+Slack : 2.347
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst14|inst'
+Slack : 2.369
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst7|inst'
+Slack : 2.374
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst10|inst'
+Slack : 2.402
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst7|inst'
+Slack : 2.434
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst19|inst'
+Slack : 2.527
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst11|inst'
+Slack : 2.541
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst12|inst'
+Slack : 2.608
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst5|inst'
+Slack : 2.620
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst3|inst'
+Slack : 2.621
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst1|inst'
+Slack : 2.631
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst13|inst'
+Slack : 2.649
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst10|inst'
+Slack : 2.650
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst11|inst'
+Slack : 2.684
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst3|inst'
+Slack : 2.686
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst5|inst'
+Slack : 2.688
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst15|inst'
+Slack : 2.691
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst9|inst'
+Slack : 2.693
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst17|inst'
+Slack : 2.698
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst13|inst'
+Slack : 2.745
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst9|inst'
+Slack : 2.756
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst6|inst'
+Slack : 2.758
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst4|inst'
+Slack : 2.759
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst|inst'
+Slack : 2.760
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst2|inst'
+Slack : 2.768
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst12|inst'
+Slack : 2.823
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst2|inst'
+Slack : 2.827
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst14|inst'
+Slack : 2.830
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst8|inst'
+Slack : 2.832
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst16|inst'
+Slack : 2.836
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst4|inst'
+Slack : 2.840
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst18|inst'
+Slack : 2.843
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst6|inst'
+Slack : 2.843
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst15|inst'
+Slack : 2.846
+TNS   : 0.000
+
+Type  : Slow Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst|inst'
+Slack : 2.990
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK_50'
+Slack : -1.380
+TNS   : -30.380
+
+Type  : Slow Model Minimum Pulse Width 'KEY[2]'
+Slack : -1.222
+TNS   : -23.222
+
+Type  : Slow Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst23|inst'
+Slack : -0.500
+TNS   : -11.000
+
+Type  : Slow Model Minimum Pulse Width 'mainFSM:inst1|inst7~_Duplicate_1'
+Slack : -0.500
+TNS   : -11.000
+
+Type  : Slow Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst10|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst11|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst12|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst13|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst14|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst15|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst16|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst17|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst18|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst19|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst1|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst20|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst21|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst22|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst2|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst3|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst4|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst5|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst6|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst7|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst8|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst9|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst10|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst11|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst12|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst13|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst14|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst15|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst16|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst17|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst18|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst19|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst1|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst2|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst3|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst4|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst5|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst6|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst7|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst8|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst9|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst10|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst11|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst12|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst13|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst14|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst15|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst16|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst17|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst18|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst19|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst1|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst2|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst3|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst4|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst5|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst6|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst7|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst8|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst9|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Setup 'CLOCK_50'
+Slack : -1.999
+TNS   : -15.725
+
+Type  : Fast Model Setup 'mainFSM:inst1|inst7~_Duplicate_1'
+Slack : -1.866
+TNS   : -19.726
+
+Type  : Fast Model Setup 'KEY[2]'
+Slack : -0.965
+TNS   : -19.155
+
+Type  : Fast Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst23|inst'
+Slack : -0.615
+TNS   : -5.427
+
+Type  : Fast Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst19|inst'
+Slack : 0.665
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst19|inst'
+Slack : 0.665
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst12|inst'
+Slack : 0.773
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst16|inst'
+Slack : 0.773
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst18|inst'
+Slack : 0.773
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst4|inst'
+Slack : 0.773
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst6|inst'
+Slack : 0.773
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst8|inst'
+Slack : 0.773
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst|inst'
+Slack : 0.773
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst11|inst'
+Slack : 0.773
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst4|inst'
+Slack : 0.773
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst6|inst'
+Slack : 0.773
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst|inst'
+Slack : 0.773
+TNS   : 0.000
+
+Type  : Fast Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst10|inst'
+Slack : 0.774
+TNS   : 0.000
+
+Type  : Fast Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst12|inst'
+Slack : 0.774
+TNS   : 0.000
+
+Type  : Fast Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst14|inst'
+Slack : 0.774
+TNS   : 0.000
+
+Type  : Fast Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst16|inst'
+Slack : 0.774
+TNS   : 0.000
+
+Type  : Fast Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst18|inst'
+Slack : 0.774
+TNS   : 0.000
+
+Type  : Fast Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst20|inst'
+Slack : 0.774
+TNS   : 0.000
+
+Type  : Fast Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst22|inst'
+Slack : 0.774
+TNS   : 0.000
+
+Type  : Fast Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst2|inst'
+Slack : 0.774
+TNS   : 0.000
+
+Type  : Fast Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst4|inst'
+Slack : 0.774
+TNS   : 0.000
+
+Type  : Fast Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst6|inst'
+Slack : 0.774
+TNS   : 0.000
+
+Type  : Fast Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst8|inst'
+Slack : 0.774
+TNS   : 0.000
+
+Type  : Fast Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst|inst'
+Slack : 0.774
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst14|inst'
+Slack : 0.774
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst2|inst'
+Slack : 0.774
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst13|inst'
+Slack : 0.774
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst15|inst'
+Slack : 0.774
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst2|inst'
+Slack : 0.774
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst9|inst'
+Slack : 0.774
+TNS   : 0.000
+
+Type  : Fast Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst13|inst'
+Slack : 0.842
+TNS   : 0.000
+
+Type  : Fast Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst15|inst'
+Slack : 0.842
+TNS   : 0.000
+
+Type  : Fast Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst3|inst'
+Slack : 0.842
+TNS   : 0.000
+
+Type  : Fast Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst7|inst'
+Slack : 0.842
+TNS   : 0.000
+
+Type  : Fast Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst9|inst'
+Slack : 0.842
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst11|inst'
+Slack : 0.842
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst1|inst'
+Slack : 0.842
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst3|inst'
+Slack : 0.842
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst5|inst'
+Slack : 0.842
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst9|inst'
+Slack : 0.842
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst10|inst'
+Slack : 0.842
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst12|inst'
+Slack : 0.842
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst15|inst'
+Slack : 0.845
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst17|inst'
+Slack : 0.845
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst3|inst'
+Slack : 0.848
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst5|inst'
+Slack : 0.848
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst18|inst'
+Slack : 0.853
+TNS   : 0.000
+
+Type  : Fast Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst5|inst'
+Slack : 0.854
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst10|inst'
+Slack : 0.854
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst13|inst'
+Slack : 0.854
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst17|inst'
+Slack : 0.854
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst7|inst'
+Slack : 0.946
+TNS   : 0.000
+
+Type  : Fast Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst19|inst'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Fast Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst21|inst'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Fast Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst11|inst'
+Slack : 0.983
+TNS   : 0.000
+
+Type  : Fast Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst17|inst'
+Slack : 0.984
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst7|inst'
+Slack : 0.984
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst14|inst'
+Slack : 0.993
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst8|inst'
+Slack : 0.993
+TNS   : 0.000
+
+Type  : Fast Model Setup 'mainClock:inst8|clkDivider:inst17|clkHalf:inst1|inst'
+Slack : 0.994
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst1|inst'
+Slack : 0.994
+TNS   : 0.000
+
+Type  : Fast Model Setup 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst16|inst'
+Slack : 1.001
+TNS   : 0.000
+
+Type  : Fast Model Hold 'CLOCK_50'
+Slack : -2.351
+TNS   : -17.422
+
+Type  : Fast Model Hold 'KEY[2]'
+Slack : -0.816
+TNS   : -13.313
+
+Type  : Fast Model Hold 'mainFSM:inst1|inst7~_Duplicate_1'
+Slack : -0.777
+TNS   : -7.417
+
+Type  : Fast Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst16|inst'
+Slack : -0.621
+TNS   : -0.621
+
+Type  : Fast Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst1|inst'
+Slack : -0.614
+TNS   : -0.614
+
+Type  : Fast Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst1|inst'
+Slack : -0.614
+TNS   : -0.614
+
+Type  : Fast Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst14|inst'
+Slack : -0.613
+TNS   : -0.613
+
+Type  : Fast Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst8|inst'
+Slack : -0.613
+TNS   : -0.613
+
+Type  : Fast Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst17|inst'
+Slack : -0.604
+TNS   : -0.604
+
+Type  : Fast Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst7|inst'
+Slack : -0.604
+TNS   : -0.604
+
+Type  : Fast Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst11|inst'
+Slack : -0.603
+TNS   : -0.603
+
+Type  : Fast Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst19|inst'
+Slack : -0.571
+TNS   : -0.571
+
+Type  : Fast Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst21|inst'
+Slack : -0.571
+TNS   : -0.571
+
+Type  : Fast Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst7|inst'
+Slack : -0.566
+TNS   : -0.566
+
+Type  : Fast Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst5|inst'
+Slack : -0.474
+TNS   : -0.474
+
+Type  : Fast Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst10|inst'
+Slack : -0.474
+TNS   : -0.474
+
+Type  : Fast Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst13|inst'
+Slack : -0.474
+TNS   : -0.474
+
+Type  : Fast Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst17|inst'
+Slack : -0.474
+TNS   : -0.474
+
+Type  : Fast Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst18|inst'
+Slack : -0.473
+TNS   : -0.473
+
+Type  : Fast Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst3|inst'
+Slack : -0.468
+TNS   : -0.468
+
+Type  : Fast Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst5|inst'
+Slack : -0.468
+TNS   : -0.468
+
+Type  : Fast Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst15|inst'
+Slack : -0.465
+TNS   : -0.465
+
+Type  : Fast Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst17|inst'
+Slack : -0.465
+TNS   : -0.465
+
+Type  : Fast Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst13|inst'
+Slack : -0.462
+TNS   : -0.462
+
+Type  : Fast Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst15|inst'
+Slack : -0.462
+TNS   : -0.462
+
+Type  : Fast Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst3|inst'
+Slack : -0.462
+TNS   : -0.462
+
+Type  : Fast Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst7|inst'
+Slack : -0.462
+TNS   : -0.462
+
+Type  : Fast Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst9|inst'
+Slack : -0.462
+TNS   : -0.462
+
+Type  : Fast Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst11|inst'
+Slack : -0.462
+TNS   : -0.462
+
+Type  : Fast Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst1|inst'
+Slack : -0.462
+TNS   : -0.462
+
+Type  : Fast Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst3|inst'
+Slack : -0.462
+TNS   : -0.462
+
+Type  : Fast Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst5|inst'
+Slack : -0.462
+TNS   : -0.462
+
+Type  : Fast Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst9|inst'
+Slack : -0.462
+TNS   : -0.462
+
+Type  : Fast Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst10|inst'
+Slack : -0.462
+TNS   : -0.462
+
+Type  : Fast Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst12|inst'
+Slack : -0.462
+TNS   : -0.462
+
+Type  : Fast Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst10|inst'
+Slack : -0.394
+TNS   : -0.394
+
+Type  : Fast Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst12|inst'
+Slack : -0.394
+TNS   : -0.394
+
+Type  : Fast Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst14|inst'
+Slack : -0.394
+TNS   : -0.394
+
+Type  : Fast Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst16|inst'
+Slack : -0.394
+TNS   : -0.394
+
+Type  : Fast Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst18|inst'
+Slack : -0.394
+TNS   : -0.394
+
+Type  : Fast Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst20|inst'
+Slack : -0.394
+TNS   : -0.394
+
+Type  : Fast Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst22|inst'
+Slack : -0.394
+TNS   : -0.394
+
+Type  : Fast Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst2|inst'
+Slack : -0.394
+TNS   : -0.394
+
+Type  : Fast Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst4|inst'
+Slack : -0.394
+TNS   : -0.394
+
+Type  : Fast Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst6|inst'
+Slack : -0.394
+TNS   : -0.394
+
+Type  : Fast Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst8|inst'
+Slack : -0.394
+TNS   : -0.394
+
+Type  : Fast Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst|inst'
+Slack : -0.394
+TNS   : -0.394
+
+Type  : Fast Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst14|inst'
+Slack : -0.394
+TNS   : -0.394
+
+Type  : Fast Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst2|inst'
+Slack : -0.394
+TNS   : -0.394
+
+Type  : Fast Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst13|inst'
+Slack : -0.394
+TNS   : -0.394
+
+Type  : Fast Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst15|inst'
+Slack : -0.394
+TNS   : -0.394
+
+Type  : Fast Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst2|inst'
+Slack : -0.394
+TNS   : -0.394
+
+Type  : Fast Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst9|inst'
+Slack : -0.394
+TNS   : -0.394
+
+Type  : Fast Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst12|inst'
+Slack : -0.393
+TNS   : -0.393
+
+Type  : Fast Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst16|inst'
+Slack : -0.393
+TNS   : -0.393
+
+Type  : Fast Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst18|inst'
+Slack : -0.393
+TNS   : -0.393
+
+Type  : Fast Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst4|inst'
+Slack : -0.393
+TNS   : -0.393
+
+Type  : Fast Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst6|inst'
+Slack : -0.393
+TNS   : -0.393
+
+Type  : Fast Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst8|inst'
+Slack : -0.393
+TNS   : -0.393
+
+Type  : Fast Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst|inst'
+Slack : -0.393
+TNS   : -0.393
+
+Type  : Fast Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst11|inst'
+Slack : -0.393
+TNS   : -0.393
+
+Type  : Fast Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst4|inst'
+Slack : -0.393
+TNS   : -0.393
+
+Type  : Fast Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst6|inst'
+Slack : -0.393
+TNS   : -0.393
+
+Type  : Fast Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst|inst'
+Slack : -0.393
+TNS   : -0.393
+
+Type  : Fast Model Hold 'mainClock:inst8|clkDivider:inst17|clkHalf:inst23|inst'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst19|inst'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst19|inst'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst|inst'
+Slack : -1.095
+TNS   : -1.095
+
+Type  : Fast Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst15|inst'
+Slack : -1.043
+TNS   : -1.043
+
+Type  : Fast Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst18|inst'
+Slack : -1.038
+TNS   : -1.038
+
+Type  : Fast Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst6|inst'
+Slack : -1.036
+TNS   : -1.036
+
+Type  : Fast Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst4|inst'
+Slack : -1.035
+TNS   : -1.035
+
+Type  : Fast Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst16|inst'
+Slack : -1.033
+TNS   : -1.033
+
+Type  : Fast Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst14|inst'
+Slack : -1.032
+TNS   : -1.032
+
+Type  : Fast Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst2|inst'
+Slack : -1.029
+TNS   : -1.029
+
+Type  : Fast Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst8|inst'
+Slack : -1.026
+TNS   : -1.026
+
+Type  : Fast Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst12|inst'
+Slack : -1.020
+TNS   : -1.020
+
+Type  : Fast Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst2|inst'
+Slack : -0.998
+TNS   : -0.998
+
+Type  : Fast Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst4|inst'
+Slack : -0.993
+TNS   : -0.993
+
+Type  : Fast Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst|inst'
+Slack : -0.993
+TNS   : -0.993
+
+Type  : Fast Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst6|inst'
+Slack : -0.992
+TNS   : -0.992
+
+Type  : Fast Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst9|inst'
+Slack : -0.989
+TNS   : -0.989
+
+Type  : Fast Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst13|inst'
+Slack : -0.983
+TNS   : -0.983
+
+Type  : Fast Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst17|inst'
+Slack : -0.966
+TNS   : -0.966
+
+Type  : Fast Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst15|inst'
+Slack : -0.961
+TNS   : -0.961
+
+Type  : Fast Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst5|inst'
+Slack : -0.961
+TNS   : -0.961
+
+Type  : Fast Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst3|inst'
+Slack : -0.960
+TNS   : -0.960
+
+Type  : Fast Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst9|inst'
+Slack : -0.957
+TNS   : -0.957
+
+Type  : Fast Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst13|inst'
+Slack : -0.952
+TNS   : -0.952
+
+Type  : Fast Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst11|inst'
+Slack : -0.951
+TNS   : -0.951
+
+Type  : Fast Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst10|inst'
+Slack : -0.945
+TNS   : -0.945
+
+Type  : Fast Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst1|inst'
+Slack : -0.930
+TNS   : -0.930
+
+Type  : Fast Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst3|inst'
+Slack : -0.924
+TNS   : -0.924
+
+Type  : Fast Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst5|inst'
+Slack : -0.923
+TNS   : -0.923
+
+Type  : Fast Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst12|inst'
+Slack : -0.915
+TNS   : -0.915
+
+Type  : Fast Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst11|inst'
+Slack : -0.896
+TNS   : -0.896
+
+Type  : Fast Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst19|inst'
+Slack : -0.888
+TNS   : -0.888
+
+Type  : Fast Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst7|inst'
+Slack : -0.853
+TNS   : -0.853
+
+Type  : Fast Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst7|inst'
+Slack : -0.831
+TNS   : -0.831
+
+Type  : Fast Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst10|inst'
+Slack : -0.827
+TNS   : -0.827
+
+Type  : Fast Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst14|inst'
+Slack : -0.824
+TNS   : -0.824
+
+Type  : Fast Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst18|inst'
+Slack : -0.809
+TNS   : -0.809
+
+Type  : Fast Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst1|inst'
+Slack : -0.809
+TNS   : -0.809
+
+Type  : Fast Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst8|inst'
+Slack : -0.770
+TNS   : -0.770
+
+Type  : Fast Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst17|inst'
+Slack : -0.710
+TNS   : -0.710
+
+Type  : Fast Model Recovery 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst19|inst'
+Slack : -0.691
+TNS   : -0.691
+
+Type  : Fast Model Recovery 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst16|inst'
+Slack : -0.563
+TNS   : -0.563
+
+Type  : Fast Model Recovery 'CLOCK_50'
+Slack : 0.094
+TNS   : 0.000
+
+Type  : Fast Model Removal 'CLOCK_50'
+Slack : -0.176
+TNS   : -0.176
+
+Type  : Fast Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst16|inst'
+Slack : 0.943
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst19|inst'
+Slack : 1.071
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst17|inst'
+Slack : 1.090
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst8|inst'
+Slack : 1.150
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst18|inst'
+Slack : 1.189
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst1|inst'
+Slack : 1.189
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst14|inst'
+Slack : 1.204
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst10|inst'
+Slack : 1.207
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst7|inst'
+Slack : 1.211
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst7|inst'
+Slack : 1.233
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst19|inst'
+Slack : 1.268
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst11|inst'
+Slack : 1.276
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst12|inst'
+Slack : 1.295
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst5|inst'
+Slack : 1.303
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst3|inst'
+Slack : 1.304
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst1|inst'
+Slack : 1.310
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst10|inst'
+Slack : 1.325
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst11|inst'
+Slack : 1.331
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst13|inst'
+Slack : 1.332
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst9|inst'
+Slack : 1.337
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst3|inst'
+Slack : 1.340
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst15|inst'
+Slack : 1.341
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst5|inst'
+Slack : 1.341
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst17|inst'
+Slack : 1.346
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst13|inst'
+Slack : 1.363
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst9|inst'
+Slack : 1.369
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst6|inst'
+Slack : 1.372
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst4|inst'
+Slack : 1.373
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst|inst'
+Slack : 1.373
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst2|inst'
+Slack : 1.378
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst12|inst'
+Slack : 1.400
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst8|inst'
+Slack : 1.406
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst2|inst'
+Slack : 1.409
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst14|inst'
+Slack : 1.412
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst16|inst'
+Slack : 1.413
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst4|inst'
+Slack : 1.415
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst6|inst'
+Slack : 1.416
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst18|inst'
+Slack : 1.418
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst15|inst'
+Slack : 1.423
+TNS   : 0.000
+
+Type  : Fast Model Removal 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst|inst'
+Slack : 1.475
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK_50'
+Slack : -1.380
+TNS   : -30.380
+
+Type  : Fast Model Minimum Pulse Width 'KEY[2]'
+Slack : -1.222
+TNS   : -23.222
+
+Type  : Fast Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst23|inst'
+Slack : -0.500
+TNS   : -11.000
+
+Type  : Fast Model Minimum Pulse Width 'mainFSM:inst1|inst7~_Duplicate_1'
+Slack : -0.500
+TNS   : -11.000
+
+Type  : Fast Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst10|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst11|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst12|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst13|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst14|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst15|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst16|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst17|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst18|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst19|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst1|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst20|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst21|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst22|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst2|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst3|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst4|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst5|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst6|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst7|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst8|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst9|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'mainClock:inst8|clkDivider:inst17|clkHalf:inst|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst10|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst11|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst12|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst13|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst14|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst15|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst16|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst17|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst18|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst19|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst1|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst2|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst3|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst4|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst5|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst6|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst7|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst8|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst9|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:inst17|clkDivider:inst17|clkHalf:inst|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst10|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst11|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst12|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst13|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst14|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst15|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst16|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst17|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst18|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst19|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst1|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst2|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst3|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst4|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst5|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst6|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst7|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst8|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst9|inst'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'upDownTime:stupidQ8|clkDivider:inst17|clkHalf:inst|inst'
+Slack : -0.500
+TNS   : -1.000
+
+------------------------------------------------------------
